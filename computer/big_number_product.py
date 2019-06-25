@@ -27,8 +27,22 @@ def big_product(a, b):
         decimal_b = len(b) - b.index('.') - 1
 
     # 去除数中的负号和小数点
-    new_a = a.replace('-', '').replace('.', '')[::-1]
-    new_b = b.replace('-', '').replace('.', '')[::-1]
+    del_a = a.replace('-', '').replace('.', '')
+    del_b = b.replace('-', '').replace('.', '')
+
+    # 要把数字前面的数字0去掉
+    new_a = ''
+    for s in range(len(del_a)):
+        if del_a[s] != '0':
+            new_a = del_a[s:][::-1]
+            break
+    new_b = ''
+    for d in range(len(del_b)):
+        if del_b[d] != '0':
+            new_b = del_b[d:][::-1]
+            break
+    if not new_a or not new_b:
+        return '0'
 
     # 长度较短的数设置为乘数
     length_a, length_b = len(new_a), len(new_b)
@@ -69,11 +83,25 @@ def big_product(a, b):
 
     # 根据两个数小数点后面的位数和，添加小数点
     decimal_sum = decimal_a + decimal_b
+    length = len(product_sum_str)
+    # 如果乘积的位数小于小数的位数，需要补0
     if decimal_sum:
-        product_sum_str = product_sum_str[: decimal_sum] + '.' + product_sum_str[decimal_sum:]
+        if decimal_sum > length:
+            product_sum_str += '0' * (decimal_sum - length)+ '.0'
+        elif decimal_sum == length:
+            product_sum_str = product_sum_str[: decimal_sum] + '.0'
+        else:
+            product_sum_str = product_sum_str[: decimal_sum] + '.' + product_sum_str[decimal_sum:]
 
+        # 需要把最后的数字0去掉
+        for k in range(len(product_sum_str)):
+            if product_sum_str[k] == '.':
+                product_sum_str = product_sum_str[(k+1):]
+                break
+            elif product_sum_str[k] != '0':
+                product_sum_str = product_sum_str[k:]
+                break
     # 添加乘积的正负标识
     last_pro_str = product_sum_str + sign
 
     return last_pro_str[::-1]  # 列表反转就是最终的结果
-
