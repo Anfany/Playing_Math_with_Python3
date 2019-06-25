@@ -4,6 +4,13 @@
 
 * **数**
 
+  + **Pi**
+  
+  + **e**
+  
+  + **根号2**
+  
+  + **黄金分割**
 
 * **理**
 
@@ -13,6 +20,6 @@
 
    + **[大数相乘](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_product.py)**
 
-
+   + **平方根**
 
 * **法**
