@@ -68,7 +68,7 @@ def big_division(a, b, decimal):
     :param b: 任意实数
     :param decimal: 结果中保留的小数位数.最后一位数字不进行任何形式的近似。
     对于整除的情况，商值得小数位数如果小于decimal,则不受decimal的限制。如果大于则依然遵循decimal的限制
-    :return: 小数位数的商值
+    :return: 自定义精度的商值
     """
     if a == b:
         return 1  # 不受decimal的限制
