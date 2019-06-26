@@ -16,9 +16,15 @@
 
 
 
-* **算**
+* **[算](https://github.com/Anfany/Playing_Math_with_Python3/tree/master/computer)**
 
-   + **[大数相乘](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_product.py)**
+   + **[大数乘法](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_product.py)**
+   
+   + **[大数加、减法](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_sub_add.py)**
+   
+
+   
+   
 
    + **平方根**
 
