@@ -1,7 +1,8 @@
-### 数学中的算
+#### 数学中的算
 
-* **大数相乘**：用字符串的格式模拟竖式乘法的运算；
+##### 大数乘法：[big_number_product.py]()
 
+##### 大数加法：[big_number_subtraction.py]()
 
-
+##### 大数减法：[big_number_addition.py]()
 
