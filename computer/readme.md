@@ -14,5 +14,5 @@
 #### 2. 大数除法：[big_number_division.py](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_division.py)
 
 
-   方法：模拟竖式相除；
+   方法：模拟竖式相除，自定义精度；
 
