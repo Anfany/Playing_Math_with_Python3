@@ -24,15 +24,15 @@ min=0，max=2， product=1
      如果 product < 2:
           min = middle
 ```
- 因为此法是通过控制乘积与2的差的精度来计算的，因此得到的平方根最后面的几个数字是不准确的。
-   
+
    * 牛顿迭代法
-  
+   
+   初始值为a=1，通过a=(a + (2/a)) /2不断的更新a，则a的值无限接近根号2。
   
    
    * 数对比值法
    
    初始数对s=[a,b]=[1,1]，通过a=a+b,b=2a+b不断的构造下一个数对[a,b]，而b与a的比值则无限接近根号2。对于根号2而言，数对序列就是```[1,1]，[2,3]，[5,7]，[12,17]，[29,41]，[70,99]，……```
    
-   关于后面两种方法的详细说明，[参见](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer)
+   后面的三种方法是通过判断得到的平方根的乘积与2的差的精度来终止计算的，因此得到的平方根最后面的几个数字是不准确的。关于后面两种方法的详细说明，[参见](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer)
    
