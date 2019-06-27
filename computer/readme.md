@@ -18,7 +18,8 @@
    
    
 
-#### 4. 算数平方根：
+#### 4. 算数平方根：[sqrt_2.py](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/sqrt_2.py)
+
 
 
    * **方法4：数对比值法**
