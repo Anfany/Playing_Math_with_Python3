@@ -2,7 +2,7 @@
 
 --------
 
-* **数**
+* **[数](https://github.com/Anfany/Playing_Math_with_Python3/tree/master/number)**
 
   + **Pi**
   
