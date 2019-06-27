@@ -34,5 +34,5 @@ min=0，max=2， product=1
    
    初始数对s=[a,b]=[1,1]，通过a=a+b,b=2a+b不断的构造下一个数对[a,b]，而b与a的比值则无限接近根号2。对于根号2而言，数对序列就是```[1,1]，[2,3]，[5,7]，[12,17]，[29,41]，[70,99]，……```
    
-   关于后面两种方法的说明，[参见](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer)
+   关于后面两种方法的详细说明，[参见](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer)
    
