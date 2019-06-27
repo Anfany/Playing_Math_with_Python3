@@ -23,7 +23,7 @@
 
    * **方法4：数对比值法**
    
-   计算任意正整数N的平方根，构造数对，数对后面元素与前面元素的比值会越来越接近平方根。
+   通过构造数对计算任意正整数N的算数平方根。随着迭代的进行，数对后面元素与前面元素的比值会越来越接近算数平方根。
    
    ![image](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/sqrt_4.png)
    
