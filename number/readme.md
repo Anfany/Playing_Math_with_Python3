@@ -14,7 +14,7 @@
    
    * **二分法**
   
-    ```
+```
 min=0，max=2， product=1
 当product与2的差不满足精度时：
      middle = (min + max) /2
@@ -23,7 +23,7 @@ min=0，max=2， product=1
          max = middle
      如果 product < 2:
           min = middle
-    ```
+```
    
    * **牛顿迭代法**
    
