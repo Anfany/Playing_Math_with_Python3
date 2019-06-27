@@ -95,7 +95,7 @@ def sqrt_2_dichotomy(decimal):
     :return: 2的算数平方根
     """
     min_num = '0'  # 二分法开始的最小值
-    max_num = '2'  # 二分法开始的最小值
+    max_num = '2'  # 二分法开始的最大值
     middle_num = ''  # 二分法开始的中间值
     product = '1'
     # 通过判断当前乘积和2的差是否满足条件
