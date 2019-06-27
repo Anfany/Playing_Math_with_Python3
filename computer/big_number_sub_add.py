@@ -130,8 +130,6 @@ def big_addition(a, b):
     :param b: 实数
     :return: a+b的和
     """
-    if a == b:
-        return '0'
     # 获取实数的小数点位数
     decimal_a = 0
     if '.' in a:
