@@ -116,6 +116,11 @@ def big_division(a, b, decimal):
         if b[j] != '0':
             new_b = b[j:]
             break
+            
+    if new_a == '':
+        return '0'
+    if new_b == '':
+        return print('WARNING：商不能为0')
 
     # 被除数放大添加的0的个数
     add_0 = 0
