@@ -22,7 +22,7 @@
     
    * **牛顿迭代法**
     
-     
+     ![image](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/sqrt_3.png)
 
    * **数对比值法**
    
