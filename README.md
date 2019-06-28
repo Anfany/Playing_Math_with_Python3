@@ -23,12 +23,8 @@
    + **[大数加、减法](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_sub_add.py)**
    
    + **[大数除法](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_division.py)**
-   
-
-   
-   
-
-   + **平方根**
+  
+   + [**平方根](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_sqrt.py)**
 
 * **法**
 
