@@ -45,6 +45,10 @@ def big_subtraction(a, b):
         if b[j] != '0':
             new_b = b[j:]
             break
+            
+    # 两个字符均为空
+    if new_a == new_b:
+        return '0'
 
     # 首先判断两个数哪个大，大的作为被减数，如果b不是大的，则结果需要加负号
     sign = ''
