@@ -8,7 +8,7 @@
   
   + **自然对数e**
   
-  + **根号2**
+  + **[根号2](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/number/sqrt_2.py)**
   
   + **黄金分割点**
 
