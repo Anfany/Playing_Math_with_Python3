@@ -1,7 +1,7 @@
 # -*- coding：utf-8 -*-
 # &Author  AnFany
 
-#  计算自定义精度的任意正实数的算数平方根：直接法，二分法，牛顿迭代法，数对比值法，
+#  计算自定义精度的任意正实数的算数平方根：直接法，二分法，牛顿迭代法，数对比值法(未实现)，
 
 import big_number_product as b_p   # 大数乘法
 import big_number_division as b_d  # 大数除法
@@ -11,13 +11,13 @@ import big_number_sub_add as b_s_a  # 大数加减法
 class SQRT():
     def __init__(self, number, decimal, sign='s', method='s_direct'):
         """
-        计算自定义精度的任意正整数的算数平方根：直接法，二分法，牛顿迭代法，数对比值法，
+        计算自定义精度的任意正整数的算数平方根：直接法，二分法，牛顿迭代法
         :param number:  进行开平方的数, 整数或者小数均可，字符串或者非字符串均可
         :param decimal:  需要控制的精度
         :param sign: 默认为's'，'s'：控制平方根的精度，获取小数点后第一个非0的数字开始计算，decimal位的准确的数字。
                      'p'：使得输出的平方根的平方与number的误差绝对值不大于1e(-decimal)
         :param method: 默认为's_direct'，'s_direct'：直接法；'s_dichotomy'：二分法；
-                      's_newton'：牛顿迭代法；'s_sequence'：牛顿迭代法；
+                      's_newton'：牛顿迭代法；
         """
         self.n = str(number)
         self.d = decimal
