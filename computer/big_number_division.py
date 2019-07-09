@@ -133,7 +133,7 @@ def big_division(a, b, decimal):
     # a和b只是小数点位置不同，其他的数字是相同的。也就是说b是a的整数倍
     if add_0:
         if new_a == new_b + '0':
-            return '0.' + '0' * (add_0 - 1) + '1'
+            return '0.' + '0' * (add_0 - 2) + '1'
 
     # 判断开始对应的位置
     start_carry = 0
