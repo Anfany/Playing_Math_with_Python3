@@ -28,7 +28,9 @@
 
 * **法**
 
-
+   + **[变态曲线](https://github.com/Anfany/Playing_Math_with_Python3/blob/master/computer/big_number_sqrt.py)**
+   
+   
 扫描下方二维码，关注订阅号Python范儿，获取更多。
 
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
